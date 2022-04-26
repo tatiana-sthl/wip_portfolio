@@ -1,10 +1,53 @@
 body {
     background-image: url('clock.jpg');
     background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Dancing Script', cursive;
 }
 
 h1 {
-    font-family: 'Tapestry', cursive;
-    font-size: 400%;
-    color: white;
+    font-size: 1200%;
+    color: #cec3b4;
 }
+
+h2 {
+    font-size: 200%;
+    color: #cec3b4;
+}
+
+.container {
+    border: 3px red solid;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    align-items: auto;
+    align-content: start
+}
+
+.contact {
+    border: 3px red solid;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+  }
+
+  .contact-details {
+    font-size: 5rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .contact-details:hover {
+    transform: translateY(8px);
+  }
+
