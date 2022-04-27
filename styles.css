@@ -34,12 +34,22 @@ h2, h3 {
     flex-wrap: wrap;
 }
 
+.contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+
 .cv {
     display: flex;
     justify-content: center;
     width: 100%;
     max-width: 980px;
-    margin-top: 4rem;
+    margin-top: 1rem;
     flex-wrap: wrap;
 }
 
@@ -48,16 +58,17 @@ h2, h3 {
     padding: 0.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    margin: -1rem;
+    margin: -0.5rem;
     margin-left: 26rem;
     border: 0.16em solid rgba(255, 255, 255, 0);
     background-color: #cec3b4;
-    border-radius: 2em;
+    border-radius: 0.5em;
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
-    color: #1a1717;
+    font-weight: bold;
+    color: rgb(83, 64, 44);
     text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
     text-align: center;
     transition: all 0.2s;
